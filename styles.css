@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* Flexbox properties on the holder */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to go to the next row */
+  justify-content: center; /* Positions items horizontally in the center */
+  align-items: center; /* Positions items vertically in the center */
+}
+
+/* Styles for the items (you can adjust these according to your design) */
+.item { /* Adjust the width as per your design (3 items in a row) */
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+/* Media query to make the items responsive (for smaller screens) */
+
